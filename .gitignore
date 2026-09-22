@@ -1,0 +1,296 @@
+# ==============================
+# OS
+# ==============================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# 개인 설정은 제외하고 싶지 않을 경우 아래 주석 해제 대신 위 .vscode/ 삭제
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+
+# ==============================
+# Java
+# ==============================
+
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+replay_pid*
+
+
+# ==============================
+# Gradle
+# ==============================
+
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle local config
+gradle-app.setting
+
+
+# ==============================
+# Maven
+# ==============================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+# ==============================
+# Eclipse
+# ==============================
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+.recommenders/
+
+.project
+.classpath
+
+
+# ==============================
+# NetBeans
+# ==============================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# ==============================
+# Logs
+# ==============================
+
+logs/
+*.log
+*.out
+*.err
+
+
+# ==============================
+# Runtime / Temp
+# ==============================
+
+tmp/
+temp/
+.cache/
+.cache-loader/
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+secrets/
+secret/
+credentials/
+
+
+# ==============================
+# Local configuration
+# ==============================
+
+config.local.*
+application-local.properties
+application-local.yml
+application-local.yaml
+
+*.local
+
+
+# ==============================
+# Database
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# 필요하면 DB 파일도 Git에 넣을 수 있으니
+# 프로젝트에 따라 위 규칙 삭제
+
+
+# ==============================
+# Node.js
+# 혹시 Java 프로젝트에서 프론트도 쓰게 될 경우
+# ==============================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+dist/
+coverage/
+
+.next/
+.nuxt/
+.svelte-kit/
+
+
+# ==============================
+# Python
+# 혹시 스크립트를 같이 쓸 경우
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+
+
+# ==============================
+# Build / Generated
+# ==============================
+
+generated/
+generated-sources/
+classes/
+
+*.generated
+
+
+# ==============================
+# IDE Backup
+# ==============================
+
+*.orig
+*.rej
+
+
+# ==============================
+# Project-specific local files
+# ==============================
+
+# 개인 PC 경로/설정 파일
+local/
+local-config/
+
+# 테스트용 개인 데이터
+test-data-local/
+
+# 개인 다운로드 파일
+downloads/
+
+
+# ==============================
+# Synology / Cloud sync
+# ==============================
+
+@eaDir/
+.synology/
+#recycle/
+
+
+# ==============================
+# Misc
+# ==============================
+
+*.pid
+*.seed
+*.pid.lock
+
+.DS_Store?
